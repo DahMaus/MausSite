@@ -56,8 +56,136 @@ body::before {
     font-size: 12px;
 }
 
+.profile-window {
+    width: 90%;
+    max-width: 360px;
+    box-sizing: border-box;
+    background: #ece9d8;
+    border: 2px solid #0054e3;
+    border-radius: 7px 7px 0 0;
+    box-shadow: 3px 3px 12px #0006;
+    font-family: Tahoma, sans-serif;
+    overflow: hidden;
+    margin: 30px auto 0;
+}
+
+.title-bar {
+    background: linear-gradient(to bottom, #0997ff, #0053e5 50%, #003ac5);
+    color: white;
+    font-weight: bold;
+    padding: 6px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 1px 1px #003399;
+}
+
+.window-buttons {
+    display: flex;
+    gap: 3px;
+}
+
+.window-buttons span {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#fff, #b7cfee);
+    border: 1px solid white;
+    border-radius: 3px;
+    color: #003399;
+    font-size: 14px;
+    box-shadow: 1px 1px #003399;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+}
+
 .pfp {
-    width: 200px;
-    height: 200px;
-    padding: 2%;
+    width: 35%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.profile-info h2 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #222;
+}
+
+.profile-info p {
+    margin: 6px 0;
+    font-size: 13px;
+    color: #444;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.sections a {
+    color: rgb(110, 94, 255);
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 0 0 8px white;
+}
+
+.catgif {
+    display: flex;
+    justify-content: center;
+}
+
+.catgif img {
+    margin: 30px auto 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.info-window {
+    width: 90%;
+    max-width: 600px;
+    box-sizing: border-box;
+    margin: 30px auto;
+    background: #ece9d8;
+    border: 2px solid #0054e3;
+    border-radius: 7px 7px 0 0;
+    box-shadow: 3px 3px 12px #0006;
+    font-family: Tahoma, sans-serif;
+    overflow: hidden;
+}
+
+.info {
+    padding: 15px;
+    color: #222;
+    overflow-wrap: break-word;
+}
+
+.info h2 {
+    font-size: clamp(16px, 3vw, 22px);
+    margin: 10px 0;
+}
+
+.info h4 {
+    font-size: clamp(12px, 2vw, 15px);
+    font-weight: normal;
+    line-height: 1.6;
+    margin: 12px 0;
+}
+
+.goated {
+    display: block;
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+    margin: 30px auto 0;
 }
