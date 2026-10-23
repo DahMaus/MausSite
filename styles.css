@@ -189,3 +189,45 @@ body::before {
     height: auto;
     margin: 30px auto 0;
 }
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    margin: 8px 0;
+    background: #fff;
+    border: 1px solid #7f9db9;
+}
+
+.project .banner {
+    flex: 0 0 100%;
+    aspect-ratio: 2 / 1;
+    background: #cfd8e8 center / cover no-repeat;
+    border: 1px solid #7f9db9;
+    display: block;
+}
+
+.project a.ptitle {
+    color: rgb(110, 94, 255);
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.project a.play {
+    flex-shrink: 0;
+    padding: 4px 12px;
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    background: linear-gradient(#fff, #ece9d8);
+    border: 1px solid #003c74;
+    border-radius: 3px;
+}
+
+.project a.play:hover {
+    background: linear-gradient(#fff, #b7cfee);
+}
