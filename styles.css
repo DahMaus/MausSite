@@ -231,3 +231,35 @@ body::before {
 .project a.play:hover {
     background: linear-gradient(#fff, #b7cfee);
 }
+
+.specs {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    background: #fff;
+    border: 1px solid #7f9db9;
+}
+
+.specs td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #ece9d8;
+}
+
+.specs td:first-child {
+    font-weight: bold;
+    width: 30%;
+    color: #003399;
+}
+
+.songimg {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #7f9db9;
+}
+
+.song {
+text-align: center;
+}
